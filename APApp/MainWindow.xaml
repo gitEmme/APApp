@@ -46,14 +46,14 @@
             </DataGrid.Columns>
         </DataGrid>
         <Button x:Name = "ClearButton"
-            Content="Clear"
+            Content="Cancel"
             Grid.Row="2"
             Grid.Column="1"
             Grid.ColumnSpan="1"
             Margin="110,270,0,0"
             Click="ClearButton_Click" Grid.RowSpan="2"
         />
-        <ProgressBar Grid.Column="0"  Grid.Row="2" Minimum="0" Maximum="100" Grid.ColumnSpan="2" Margin="0,270,110,0" Grid.RowSpan="2" />
+        <ProgressBar Name="dashboardProgress" Grid.Column="0" Grid.Row="2" Minimum="0" Maximum="100" Grid.ColumnSpan="2" Margin="0,270,110,0" Grid.RowSpan="2" />
     </Grid>
 
 
